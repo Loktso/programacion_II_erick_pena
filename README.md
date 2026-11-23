@@ -1,33 +1,40 @@
-# Programación II
+# Universidad UTE
+## Escuela de Tecnologías UTE
+### Carrera de Desarrollo de Software
 
-Repositorio académico para organizar los ejercicios, prácticas, proyectos y subproyectos de la materia.
+* **Estudiante:** Peña Erick
+* **Curso:** 2do "A"
+* **Asignatura:** Programación II
 
-## Tecnologías
+---
 
-- **Python:** fundamentos, ejercicios y aplicaciones.
-- **Django:** desarrollo de aplicaciones web.
-- **Odoo:** módulos y personalizaciones empresariales.
+## Acerca del Repositorio
+Este repositorio reúne el portafolio práctico y evolutivo desarrollado durante la asignatura de **Programación II**. Aquí se documentan y organizan de manera estructurada los ejercicios de lógica, prácticas guiadas, aplicaciones web y desarrollos modulares construidos a lo largo del semestre, aplicando estándares limpios de código y control de versiones.
 
-## Estructura
+---
 
-- `Python/`: prácticas y proyectos de Python.
-- `Django/`: proyectos web con Django.
-- `Odoo/`: módulos y proyectos de Odoo.
-- `Proyectos_Pasados/`: trabajos anteriores organizados por tecnología.
+## Stack Tecnológico y Herramientas
+* **Python:** Desarrollo de algoritmos, programación orientada a objetos, manejo de estructuras de datos y scripts de automatización.
+* **Django:** Creación de aplicaciones web robustas bajo el patrón MVT (Modelo-Vista-Template), gestión de rutas, autenticación, modelos relacionales y conexión con bases de datos como PostgreSQL.
+* **Odoo:** Diseño, extensión y personalización de módulos empresariales (ERP) adaptados a procesos de negocio.
+* **Git & GitHub:** Gestión distribuida de versiones, trazabilidad de cambios y respaldo en la nube.
 
-## Control de versiones
+---
 
-Usamos Git para registrar cambios y GitHub para almacenar el repositorio.
+## Organización de Directorios
 
-Comandos básicos:
+| Carpeta | Contenido y Propósito |
+| :--- | :--- |
+| `Python/` | Ejercicios fundamentales, resolución de problemas y prácticas aplicadas en Python puro. |
+| `Django/` | Proyectos web completos (como gestores de tareas, sistemas de biblioteca y modelos administrativos). |
+| `Odoo/` | Desarrollo de módulos personalizados y configuraciones funcionales sobre Odoo. |
+| `Proyectos_Pasados/` | Archivo histórico de prácticas y entregables previos clasificados por tecnología. |
 
-- `git status`: consultar cambios.
-- `git add .`: preparar cambios.
-- `git commit -m "mensaje"`: guardar una versión.
-- `git push`: subir los cambios a GitHub.
+---
 
-## Buenas prácticas
+## Flujo de Trabajo con Git
+Para mantener la integridad del historial y respaldar cada avance realizado en local, se sigue el flujo estándar de Git:
 
-- Mantener cada proyecto en su carpeta.
-- Documentar los proyectos importantes con un README propio.
-- No subir contraseñas, claves privadas ni información sensible.
+1. **Verificar el estado de los archivos modificados:**
+   ```bash
+   git status
